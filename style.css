@@ -28,3 +28,12 @@ p{
     background: lightcoral;
     width: 50%;
 }
+
+#nav {
+    display: flex;
+    gap: 10px;
+}
+
+#nav a{
+    text-decoration: none;
+}
