@@ -6,7 +6,12 @@
 body {
   background: #f0f0f0;
   font-family: Arial, Helvetica, sans-serif;
-  height: 100vh;
+}
+
+header{
+    text-align: center;
+    background: white;
+    padding: 20px;
 }
 
 h1 {
@@ -42,6 +47,8 @@ p {
 #nav {
   display: flex;
   gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 #nav a {
@@ -72,4 +79,18 @@ button {
   border: none;
   color: white;
   cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #ddd;
 }
